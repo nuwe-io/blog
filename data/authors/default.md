@@ -1,16 +1,14 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Edgar Gago Carrillo
+avatar: /static/images/team/edgar.png
+occupation: Co-Founder & CTO
+company: NUWE
+email: edgar@nuwe.io
+twitter: https://twitter.com/edgar_md
+linkedin: https://www.linkedin.com/in/edgargagocarrillo
+github: https://github.com/gagocarilloedgar
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+## Test
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Empecé creyéndome astronauta, pivoté hasta ingeniero, conocí mucha gente, me liaron, digo me lié y ahora quiero mejorar el mundo haciendo software y comidas veganas que están de locos. Además a veces viajo, cuanto más barato y menos organizado, mejor.

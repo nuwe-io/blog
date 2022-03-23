@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
-  "version": "1.5.3",
-  "private": true,
+  "name": "nuwe-amazing-blog",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
@@ -67,7 +67,7 @@
     "*.+(js|jsx|ts|tsx)": [
       "eslint --fix"
     ],
-    "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
+    "*.+(js|jsx|ts|tsx|json|css|md|)": [
       "prettier --write"
     ]
   }
