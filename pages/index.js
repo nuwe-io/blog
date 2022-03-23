@@ -26,12 +26,6 @@ export default function Home({ posts }) {
           <p className="text-xl font-semibold leading-7 text-gray-800 dark:text-gray-200">
             {siteMetadata.description}
           </p>
-          <p className="mt-4 mb-4 text-2xl font-extrabold leading-7 text-gray-800 dark:text-gray-200">
-            Find all our post here{' '}
-            <Link href={`/posts`} className="text-primary-500 dark:text-primary-500">
-              {'here'}
-            </Link>
-          </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
@@ -89,6 +83,14 @@ export default function Home({ posts }) {
             )
           })}
         </ul>
+        <div className="flex justify-end ">
+          <p className="mt-4 mb-4 text-2xl font-bold leading-7 text-gray-800 dark:text-gray-200">
+            Find all our post here
+            <Link href={`/posts`} className="text-primary-500 dark:text-primary-500">
+              {' here'}
+            </Link>
+          </p>
+        </div>
       </div>
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">

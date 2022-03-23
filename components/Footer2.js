@@ -3,12 +3,13 @@ import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import Logo from '@/data/logo_white.svg'
 import ThemeSwitch from './ThemeSwitch'
+import SectionContainer from './SectionContainer'
 
 export default function Footer2() {
   return (
     <footer
       className="my-20 w-full divide-y bg-gradient-to-tl 
-from-gradient-100  to-gradient-500 px-20 text-gray-100"
+from-gradient-100  to-gradient-500 text-gray-100"
     >
       <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
         <div className="container mx-auto flex flex-col justify-between space-y-8 py-10 lg:flex-row lg:space-y-0">
@@ -75,15 +76,15 @@ from-gradient-100  to-gradient-500 px-20 text-gray-100"
             </div>
           </div>
         </div>
-        <div className="mb-4 mt-16 flex flex-row justify-between">
-          <div className="mb-2 flex space-x-2 text-sm text-gray-900 dark:text-gray-900">
+        <div className="mx-2 mt-2 flex w-full flex-col justify-between xl:flex-row">
+          <div className="mb-2 flex w-full space-x-2 text-sm text-gray-900 dark:text-gray-900">
             <div>{siteMetadata.author}</div>
             <div>{` • `}</div>
             <div>{`© ${new Date().getFullYear()}`}</div>
             <div>{` • `}</div>
             <Link href="/">{siteMetadata.title}</Link>
           </div>
-          <div className="mb-2 flex space-x-2 text-sm text-gray-900 dark:text-gray-900">
+          <div className="mb-2 flex w-full space-x-2 text-sm text-gray-900 dark:text-gray-900 xl:justify-end">
             <Link href="/">Terms of use</Link>
             <Link href="/">Cookies</Link>
             <Link href="/">Disclaimer</Link>
