@@ -2,7 +2,8 @@ const siteMetadata = {
   title: "Nuwe's amazing blog",
   author: 'NUWE',
   headerTitle: '',
-  description: 'A blog about so much stuff',
+  description:
+    "👋 Hey! Welcome to Nuwe's amazing journey. A blog about software, HR, productivity and the journey of of NUWE and the team behind it.",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://nuwe.io/blog',
