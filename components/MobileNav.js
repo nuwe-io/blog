@@ -18,7 +18,7 @@ const MobileNav = () => {
   }
 
   return (
-    <div className="sm:hidden">
+    <div className="xl:hidden">
       <button
         type="button"
         className="ml-1 mr-1 h-8 w-8 rounded py-1"
@@ -47,7 +47,7 @@ const MobileNav = () => {
         </svg>
       </button>
       <div
-        className={`fixed top-24 right-0 z-10 h-full w-full transform bg-gray-200 opacity-95 duration-300 ease-in-out dark:bg-gray-800 ${
+        className={`fixed top-24 right-0 z-10 h-full w-full transform bg-white opacity-100 duration-300 ease-in-out dark:bg-gray-900 ${
           navShow ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -57,23 +57,23 @@ const MobileNav = () => {
           className="fixed h-full w-full cursor-auto focus:outline-none"
           onClick={onToggleNav}
         ></button>
-        <nav className="fixed mt-8 h-full">
+        <nav className="fixed mt-2 h-full w-full text-center xl:hidden">
           {headerNavLinks.map((link) => (
-            <div key={link.title} className="px-12 py-4">
+            <div key={link.title} className="px-12 py-3 lg:hidden">
               <Link
                 href={link.href}
-                className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
+                className="text-xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
                 onClick={onToggleNav}
               >
                 {link.title}
               </Link>
             </div>
           ))}
-          <div className="ml-10 flex flex-col tracking-widest">
-            <button className="w-35 mt-8 h-8 rounded-md border border-primary-500 px-12  text-xl font-bold tracking-widest text-primary-500 dark:ring-offset-black">
+          <div className="m-auto flex flex-col justify-center">
+            <button className="m-auto mt-4  h-8 w-48 rounded-md border border-primary-500 text-lg font-bold  tracking-widest text-primary-500 dark:ring-offset-black ">
               Login
             </button>
-            <button className="w-30 mt-8 h-8 rounded-md bg-primary-500 px-12 text-xl font-bold tracking-widest text-white  dark:ring-offset-black">
+            <button className="m-auto mt-4 w-48 rounded-md bg-primary-500 text-lg font-bold tracking-widest text-white dark:ring-offset-black  ">
               Sing up
             </button>
           </div>

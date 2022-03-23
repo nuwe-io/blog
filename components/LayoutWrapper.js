@@ -28,7 +28,7 @@ const LayoutWrapper = ({ children }) => {
             </Link>
           </div>
           <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
+            <div className="hidden lg:block">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
@@ -39,7 +39,7 @@ const LayoutWrapper = ({ children }) => {
                 </Link>
               ))}
             </div>
-            <button className="w-35 mx-2 hidden h-8 rounded-md border border-primary-500 px-4 font-medium text-primary-500 dark:ring-offset-black md:block ">
+            <button className="w-35 mx-2 hidden h-8 rounded-md border border-primary-500 px-4 font-medium text-primary-500 dark:ring-offset-black xl:block">
               Login
             </button>
             <button className="w-30 mx-2 hidden h-8 rounded-md bg-primary-500 py-0 px-4 font-medium text-white  dark:ring-offset-black xl:block">
