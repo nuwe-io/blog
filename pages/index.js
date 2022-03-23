@@ -8,7 +8,7 @@ import formatDate from '@/lib/utils/formatDate'
 import NewsletterForm from '@/components/NewsletterForm'
 import Hero from '@/components/Hero'
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 3
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -26,7 +26,19 @@ export default function Home({ posts }) {
           <p className="text-xl font-semibold leading-7 text-gray-800 dark:text-gray-200">
             {siteMetadata.description}
           </p>
+          {posts.length > MAX_DISPLAY && (
+            <div className="flex justify-end text-base font-medium leading-6">
+              <Link
+                href="/blog"
+                className="text-primary-500 hover:text-primary-800 dark:hover:text-primary-400"
+                aria-label="all posts"
+              >
+                All Posts &rarr;
+              </Link>
+            </div>
+          )}
         </div>
+
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
@@ -83,26 +95,8 @@ export default function Home({ posts }) {
             )
           })}
         </ul>
-        <div className="flex justify-end ">
-          <p className="mt-4 mb-4 text-2xl font-bold leading-7 text-gray-800 dark:text-gray-200">
-            Find all our post here
-            <Link href={`/posts`} className="text-primary-500 dark:text-primary-500">
-              {' here'}
-            </Link>
-          </p>
-        </div>
       </div>
-      {posts.length > MAX_DISPLAY && (
-        <div className="flex justify-end text-base font-medium leading-6">
-          <Link
-            href="/blog"
-            className="text-primary-500 hover:text-primary-800 dark:hover:text-primary-400"
-            aria-label="all posts"
-          >
-            All Posts &rarr;
-          </Link>
-        </div>
-      )}
+
       {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
