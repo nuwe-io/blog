@@ -1,6 +1,6 @@
 ---
 name: Maria Carda Romero
-avatar: /static/images/team/maria.png
+avatar: /blog/static/images/team/maria.png
 occupation: Brand Creative Strategist Manager
 company: NUWE
 email: maria@nuwe.io

@@ -69,6 +69,14 @@ const MobileNav = () => {
               </Link>
             </div>
           ))}
+          <div className="ml-10 flex flex-col tracking-widest">
+            <button className="w-35 mt-8 h-8 rounded-md border border-primary-500 px-12  text-xl font-bold tracking-widest text-primary-500 dark:ring-offset-black">
+              Login
+            </button>
+            <button className="w-30 mt-8 h-8 rounded-md bg-primary-500 px-12 text-xl font-bold tracking-widest text-white  dark:ring-offset-black">
+              Sing up
+            </button>
+          </div>
         </nav>
       </div>
     </div>

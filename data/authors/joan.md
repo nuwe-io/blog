@@ -1,6 +1,6 @@
 ---
 name: Joan Tomàs Ambròs
-avatar: /static/images/team/joan.png
+avatar: /blog/static/images/team/joan.png
 occupation: CHO & Co-Founder
 company: NUWE
 email: joan@nuwe.io

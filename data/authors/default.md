@@ -1,6 +1,6 @@
 ---
 name: Edgar Gago Carrillo
-avatar: /static/images/team/edgar.png
+avatar: /blog/static/images/team/edgar.png
 occupation: Co-Founder & CTO
 company: NUWE
 email: edgar@nuwe.io

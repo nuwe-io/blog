@@ -53,6 +53,8 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  assetPrefix: '/blog',
+  basePath: '/blog',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
@@ -83,5 +85,19 @@ module.exports = withBundleAnalyzer({
     }
 
     return config
+  },
+  async redirects() {
+    return [
+      {
+        source: '/developers',
+        destination: 'https://app.nuwe.io/developers',
+        permanent: true
+      },
+      {
+        source: '/companies',
+        destination: 'https://app.nuwe.io',
+        permanent: true
+      }
+    ]
   }
 })

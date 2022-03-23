@@ -38,9 +38,13 @@ module.exports = {
         14: '3.5rem'
       },
       fontFamily: {
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans]
+        sans: ['Montserrat', ...defaultTheme.fontFamily.sans]
       },
       colors: {
+        gradient: {
+          500: '#158020',
+          100: '#92ec00'
+        },
         primary: colors.lime,
         gray: { ...colors.stone, 900: '#14151F', 800: '#1C1E2B' }
       },

@@ -1,14 +1,14 @@
 ---
-title: 'Mobile World Congress 22'
-image: "/static/images/headers/mwc.png"
-date: '2022-03-07'
-tags: ['hackathon', 'events', 'mwc',"barcelona","digital","talent"]
+title: Mobile World Congress 22
+image: /blog/static/images/headers/mwc.png
+date: 2022-03-07
+tags: [hackathon, events, mwc, barcelona,digital,talent]
 draft: false
 summary: 'Los días 28 de febrero y 1, 2 y 3 de marzo NUWE estuvo presente en 
 el Mobile World Congress Barcelona con un stand propio y como coorganizador 
 del Hackathon impulsado por Mobile World Capital dentro de la
 iniciativa de Barcelona Digital Talent, en el marco de 4 Years From Now'
-authors: ["maria","carlos"]
+authors: [maria,carlos]
 ---
 
 # NUWE - BDTHack2022

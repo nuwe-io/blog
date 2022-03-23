@@ -1,6 +1,6 @@
 ---
 name: Noelia Seoane
-avatar: /static/images/team/noelia.png
+avatar: /blog/static/images/team/noelia.png
 occupation: Tech manager
 company: NUWE
 email: noelia@nuwe.io

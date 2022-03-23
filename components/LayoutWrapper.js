@@ -3,14 +3,13 @@ import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
-import Footer from './Footer'
 import MobileNav from './MobileNav'
-import ThemeSwitch from './ThemeSwitch'
+import Footer2 from './Footer2'
 
 const LayoutWrapper = ({ children }) => {
   return (
-    <SectionContainer>
-      <div className="flex h-screen flex-col justify-between">
+    <div className="flex h-screen flex-col justify-between">
+      <SectionContainer>
         <header className="flex items-center justify-between py-10">
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
@@ -34,20 +33,25 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                  className="link-underline p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
                 >
                   {link.title}
                 </Link>
               ))}
             </div>
-            <ThemeSwitch />
+            <button className="w-35 mx-2 hidden h-8 rounded-md border border-primary-500 px-4 font-medium text-primary-500 dark:ring-offset-black md:block ">
+              Login
+            </button>
+            <button className="w-30 mx-2 hidden h-8 rounded-md bg-primary-500 py-0 px-4 font-medium text-white  dark:ring-offset-black xl:block">
+              Sing up
+            </button>
             <MobileNav />
           </div>
         </header>
         <main className="mb-auto">{children}</main>
-        <Footer />
-      </div>
-    </SectionContainer>
+      </SectionContainer>
+      <Footer2 />
+    </div>
   )
 }
 

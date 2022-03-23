@@ -1,6 +1,6 @@
 ---
 name: Jordi Simó Climent
-avatar: /static/images/team/jordi.png
+avatar: /blog/static/images/team/jordi.png
 occupation: COO & Co-founder
 company: NUWE
 email: jordi@nuwe.io

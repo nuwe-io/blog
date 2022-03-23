@@ -1,6 +1,6 @@
 ---
 name: Guillem Moreno Bravo
-avatar: /static/images/team/guille.png
+avatar: /blog/static/images/team/guille.png
 occupation: Co-Founder & CEO
 company: NUWE
 email: guille@nuwe.io

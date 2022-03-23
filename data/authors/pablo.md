@@ -1,6 +1,6 @@
 ---
 name: Pablo Torres
-avatar: /static/images/team/pablo.png
+avatar: /blog/static/images/team/pablo.png
 occupation: Sotware engineer
 company: NUWE
 email: edgar@nuwe.io

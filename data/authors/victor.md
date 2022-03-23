@@ -1,6 +1,6 @@
 ---
 name: Victor  Naranjo
-avatar: /static/images/team/victor.png
+avatar: /blog/static/images/team/victor.png
 occupation: Frontend engineer
 company: NUWE
 email: edgar@nuwe.io

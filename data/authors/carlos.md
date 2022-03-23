@@ -1,6 +1,6 @@
 ---
 name: Carlos Ibañez Cuadal
-avatar: /static/images/team/carlos.png
+avatar: /blog/static/images/team/carlos.png
 occupation: Co-Founder & CRDO
 company: NUWE
 email: carlos@nuwe.io
