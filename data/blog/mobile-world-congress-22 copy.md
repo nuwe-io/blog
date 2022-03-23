@@ -1,6 +1,6 @@
 ---
 title: 'Mobile World Congress 22'
-image: "/static/images/headers/mw.png"
+image: "/static/images/headers/mwc.png"
 date: '2022-03-07'
 tags: ['hackathon', 'events', 'mwc',"barcelona","digital","talent"]
 draft: false
