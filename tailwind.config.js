@@ -28,6 +28,9 @@ module.exports = {
       spacing: {
         '9/16': '56.25%'
       },
+      fontSize: {
+        '8.5xl': '7rem'
+      },
       lineHeight: {
         11: '2.75rem',
         12: '3rem',
