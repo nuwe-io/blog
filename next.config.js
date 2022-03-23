@@ -97,6 +97,11 @@ module.exports = withBundleAnalyzer({
         source: '/companies',
         destination: 'https://app.nuwe.io',
         permanent: true
+      },
+      {
+        source: '/press',
+        destination: 'https://app.nuwe.io/press',
+        permanent: true
       }
     ]
   }

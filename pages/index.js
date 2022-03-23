@@ -23,8 +23,14 @@ export default function Home({ posts }) {
       <Hero />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <p className="text-xl font-bold leading-7 text-gray-800 dark:text-gray-200">
+          <p className="text-xl font-semibold leading-7 text-gray-800 dark:text-gray-200">
             {siteMetadata.description}
+          </p>
+          <p className="mt-4 mb-4 text-2xl font-extrabold leading-7 text-gray-800 dark:text-gray-200">
+            Find all our post here{' '}
+            <Link href={`/posts`} className="text-primary-500 dark:text-primary-500">
+              {'here'}
+            </Link>
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
