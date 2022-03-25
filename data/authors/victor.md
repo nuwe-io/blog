@@ -5,7 +5,7 @@ occupation: Software engineer
 company: NUWE
 email: victor@nuwe.io
 twitter: https://twitter.com/edgar_md
-linkedin: https://www.linkedin.com/in/victor-naranjo-8121611a5
+linkedin: https://www.linkedin.com/in/venf
 github: https://github.com/venf
 ---
 
