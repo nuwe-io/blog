@@ -18,7 +18,7 @@ const MobileNav = () => {
   }
 
   return (
-    <div className="xl:hidden">
+    <div className="lg:hidden  ">
       <button
         type="button"
         className="ml-1 mr-1 h-8 w-8 rounded py-1"
@@ -47,7 +47,7 @@ const MobileNav = () => {
         </svg>
       </button>
       <div
-        className={`fixed top-24 right-0 z-10 h-full w-full transform bg-white opacity-100 duration-300 ease-in-out dark:bg-gray-900 ${
+        className={`fixed top-36 right-0 z-10 h-full w-full transform bg-white opacity-100 duration-300 ease-in-out dark:bg-gray-900 ${
           navShow ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -62,7 +62,7 @@ const MobileNav = () => {
             <div key={link.title} className="px-12 py-3 lg:hidden">
               <Link
                 href={link.href}
-                className="text-xl font-bold tracking-widest text-gray-900 dark:text-gray-100"
+                className="text-sm font-semibold tracking-wider text-gray-900 dark:text-gray-100"
                 onClick={onToggleNav}
               >
                 {link.title}
@@ -74,7 +74,7 @@ const MobileNav = () => {
               Login
             </button>
             <button className="m-auto mt-4 w-48 rounded-md bg-primary-500 text-lg font-bold tracking-widest text-white dark:ring-offset-black  ">
-              Sing up
+              Sign up
             </button>
           </div>
         </nav>

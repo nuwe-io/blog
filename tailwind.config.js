@@ -29,7 +29,9 @@ module.exports = {
         '9/16': '56.25%'
       },
       fontSize: {
-        '8.5xl': '7rem'
+        '8.5xl': '7rem',
+        '2md': '1.05rem',
+        '2sm': '0.94rem'
       },
       lineHeight: {
         11: '2.75rem',
@@ -43,6 +45,7 @@ module.exports = {
       colors: {
         gradient: {
           500: '#158020',
+          200: '#50b70e',
           100: '#92ec00'
         },
         primary: colors.lime,

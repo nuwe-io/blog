@@ -33,17 +33,17 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="link-underline p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                  className="link-underline font-regular p-1 text-2sm text-gray-700 dark:text-gray-100 sm:p-4"
                 >
                   {link.title}
                 </Link>
               ))}
             </div>
-            <button className="w-35 mx-2 hidden h-8 rounded-md border border-primary-500 px-4 font-medium text-primary-500 dark:ring-offset-black xl:block">
+            <button className="w-35 mx-2 hidden h-8 rounded-md border border-gradient-200 px-4 font-medium text-gradient-200 dark:ring-offset-black lg:block">
               Login
             </button>
-            <button className="w-30 mx-2 hidden h-8 rounded-md bg-primary-500 py-0 px-4 font-medium text-white  dark:ring-offset-black xl:block">
-              Sing up
+            <button className="w-30 mx-2 hidden h-8 rounded-md bg-gradient-200 py-0 px-4 font-medium text-white  dark:ring-offset-black lg:block">
+              Sign up
             </button>
             <MobileNav />
           </div>
@@ -54,5 +54,7 @@ const LayoutWrapper = ({ children }) => {
     </div>
   )
 }
+
+// 80 183 14
 
 export default LayoutWrapper

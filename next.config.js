@@ -102,6 +102,16 @@ module.exports = withBundleAnalyzer({
         source: '/press',
         destination: 'https://app.nuwe.io/press',
         permanent: true
+      },
+      {
+        source: '/terms',
+        destination: 'https://app.nuwe.io/terms',
+        permanent: true
+      },
+      {
+        source: '/privacy',
+        destination: 'https://app.nuwe.io/privacy',
+        permanent: true
       }
     ]
   }

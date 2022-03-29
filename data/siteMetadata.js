@@ -5,7 +5,7 @@ const siteMetadata = {
   description:
     "👋 Hey! Welcome to Nuwe's amazing journey. A blog about software, HR, productivity and the journey of of NUWE and the team behind it.",
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'light', // system, dark or light
   siteUrl: 'https://nuwe.io/blog',
   siteRepo: 'https://github.com/nuwe-io/blog',
   siteLogo: '/static/images/logo.png',
