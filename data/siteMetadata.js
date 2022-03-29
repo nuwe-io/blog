@@ -11,6 +11,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
+  linkedinBanner: '/static/images/linkedin-share.png',
   email: 'hello@nuwe.io',
   github: 'https://github.com/nuwe-io',
   twitter: 'https://twitter.com/NuweIo',
