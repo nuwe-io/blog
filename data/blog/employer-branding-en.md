@@ -1,6 +1,6 @@
 ---
-title: What is employer branding and why is so important?
-image: /blog/static/images/headers/employer-branding.png
+title: What is Employer Branding and why is it so important?
+image: /blog/static/images/headers/employer-branding-en.png
 date: '2022-03-28'
 tags:
   [
@@ -14,7 +14,7 @@ tags:
     'empleada'
   ]
 draft: false
-summary: 'In which company would you like to work? Do you already have the answer? Well, the company that first came to your mind is developing its Employer Branding CRACKKKKKKKKK perfectly 👌🏻'
+summary: 'In which company would you like to work? Do you already have the answer? Well, the company that first came to your mind is developing its Employer Branding perfectly 👌🏻'
 authors: ['maria']
 ---
 
@@ -24,7 +24,7 @@ authors: ['maria']
 
 ---
 
-If we go by the definition on [Wikipedia](https://en.wikipedia.org/wiki/Employer_branding): **Employer brand** is branding and marketing the entirety of the **employment experience**. It describes an employer's reputation as a place to work, and their employee value proposition, as opposed to the more general corporate brand reputation and value proposition to customers.
+If we go by the definition on [Wikipedia](https://en.wikipedia.org/wiki/Employer_branding): An **employer brand** is branding and marketing, the entirety of the **employment experience**. It describes an employer's reputation as a place to work and their employee value proposition, as opposed to the more general corporate brand reputation and value proposition to customers.
 
 In other words, **Employer Branding is how you, as a company, are viewed by your customers, your employees, and your potential future candidates.** Something not to be taken lightly, don't you think? 🙌🏻
 
