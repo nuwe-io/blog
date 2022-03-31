@@ -14,7 +14,7 @@ tags:
     'empleada'
   ]
 draft: false
-summary: 'In which company would you like to work? Do you already have the answer? Well, the company that first came to your mind is developing its Employer Branding perfectly 👌🏻'
+summary: 'In which company would you like to work? Do you already have the answer? Well, the company that first came to your mind is developing its Employer Branding CRACKKKKKKKKK perfectly 👌🏻'
 authors: ['maria']
 ---
 
