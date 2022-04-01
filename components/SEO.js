@@ -13,8 +13,9 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       {/* Open Graph */}
       <meta property="og:title" content={title} key="ogtitle" />
       <meta property="og:description" content={description} key="ogdesc" />
-      <meta property="og:image" content={ogImage} key="ogimage" />
+      <meta name="image" property="og:image" content={ogImage} key="ogimage" />
       <meta property="og:site_name" content={siteMetadata.title} key="ogsitename" />
+      <meta name="author" content={'Nuwe'} />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} key="ogurl" />
 
       {/* Twitter */}
