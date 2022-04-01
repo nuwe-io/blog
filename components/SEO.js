@@ -126,25 +126,13 @@ export const BlogSEO = ({
   const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
 
   return (
-    <>
-      <CommonSEO
-        title={title}
-        description={summary}
-        ogType="article"
-        ogImage={ogImageUrl}
-        twImage={twImageUrl}
-        canonicalUrl={canonicalUrl}
-      />
-      <Head>
-        {date && <meta property="article:published_time" content={publishedAt} />}
-        {lastmod && <meta property="article:modified_time" content={modifiedAt} />}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData, null, 2)
-          }}
-        />
-      </Head>
-    </>
+    <CommonSEO
+      title={title}
+      description={summary}
+      ogType="article"
+      ogImage={ogImageUrl}
+      twImage={twImageUrl}
+      canonicalUrl={canonicalUrl}
+    />
   )
 }
