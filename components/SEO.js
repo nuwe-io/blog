@@ -13,8 +13,8 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <meta property="og:title" content={title} key="ogtitle" />
       <meta property="og:description" content={description} key="ogdesc" />
       <meta
-        content="https://challenges-asset-files.s3.us-east-2.amazonaws.com/Landing/Open+Graph+Image.png"
         property="og:image"
+        content="https://challenges-asset-files.s3.us-east-2.amazonaws.com/Landing/Open+Graph+Image.png"
       />
       <meta property="og:site_name" content={siteMetadata.title} key="ogsitename" />
       <meta name="author" content={'Nuwe'} />
@@ -31,6 +31,7 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
         rel="canonical"
         href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
       />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
   )
 }
