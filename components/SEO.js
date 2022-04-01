@@ -27,10 +27,7 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={twImage} />
       <meta name="twitter:creator" content={'NuweIo'} key="twhandle" />
-      <link
-        rel="canonical"
-        href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
-      />
+
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
   )
@@ -87,19 +84,6 @@ export const BlogSEO = ({
 }) => {
   const publishedAt = new Date(date).toISOString()
   const modifiedAt = new Date(lastmod || date).toISOString()
-  let imagesArr =
-    images.length === 0
-      ? [siteMetadata.socialBanner]
-      : typeof images === 'string'
-      ? [images]
-      : images
-
-  const featuredImages = imagesArr.map((img) => {
-    return {
-      '@type': 'ImageObject',
-      url: `${siteMetadata.siteUrl}${img}`
-    }
-  })
 
   let authorList
   if (authorDetails) {
@@ -124,7 +108,6 @@ export const BlogSEO = ({
       '@id': url
     },
     headline: title,
-    image: featuredImages,
     datePublished: publishedAt,
     dateModified: modifiedAt,
     author: authorList,
