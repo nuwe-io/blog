@@ -12,10 +12,7 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       {/* Open Graph */}
       <meta property="og:title" content={title} key="ogtitle" />
       <meta property="og:description" content={description} key="ogdesc" />
-      <meta
-        property="og:image"
-        content="https://challenges-asset-files.s3.us-east-2.amazonaws.com/Landing/Open+Graph+Image.png"
-      />
+      <meta property="og:image" content={ogImage} />
       <meta property="og:site_name" content={siteMetadata.title} key="ogsitename" />
       <meta name="author" content={'Nuwe'} />
       <meta property="og:type" content={ogType} key="ogtype" />
