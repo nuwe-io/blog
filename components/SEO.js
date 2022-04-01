@@ -85,7 +85,6 @@ export const BlogSEO = ({
   images = [],
   canonicalUrl
 }) => {
-  const router = useRouter()
   const publishedAt = new Date(date).toISOString()
   const modifiedAt = new Date(lastmod || date).toISOString()
   let imagesArr =
@@ -140,7 +139,8 @@ export const BlogSEO = ({
     description: summary
   }
 
-  const twImageUrl = featuredImages[0].url
+  const ogImageUrl = siteMetadata.siteUrl + siteMetadata.linkedinBanner
+  const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
 
   return (
     <>
@@ -148,7 +148,7 @@ export const BlogSEO = ({
         title={title}
         description={summary}
         ogType="article"
-        ogImage={featuredImages}
+        ogImage={ogImageUrl}
         twImage={twImageUrl}
         canonicalUrl={canonicalUrl}
       />

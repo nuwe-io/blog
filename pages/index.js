@@ -1,12 +1,11 @@
+import Hero from '@/components/Hero'
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-
-import NewsletterForm from '@/components/NewsletterForm'
-import Hero from '@/components/Hero'
+import Head from 'next/head'
 
 const MAX_DISPLAY = 3
 
@@ -20,6 +19,14 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <Head>
+        <meta property="og:title" content={siteMetadata.title} key="ogtitle" />
+        <meta property="og:description" content={siteMetadata.description} key="ogdesc" />
+        <meta
+          property="og:image"
+          content="https://challenges-asset-files.s3.us-east-2.amazonaws.com/Landing/Open+Graph+Image.png"
+        />
+      </Head>
       <Hero />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
