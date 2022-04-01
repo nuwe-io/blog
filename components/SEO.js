@@ -27,7 +27,10 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={twImage} />
       <meta name="twitter:creator" content={'NuweIo'} key="twhandle" />
-
+      <link
+        rel="canonical"
+        href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
+      />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
   )
@@ -126,13 +129,25 @@ export const BlogSEO = ({
   const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
 
   return (
-    <CommonSEO
-      title={title}
-      description={summary}
-      ogType="article"
-      ogImage={ogImageUrl}
-      twImage={twImageUrl}
-      canonicalUrl={canonicalUrl}
-    />
+    <>
+      <CommonSEO
+        title={title}
+        description={summary}
+        ogType="article"
+        ogImage={ogImageUrl}
+        twImage={twImageUrl}
+        canonicalUrl={canonicalUrl}
+      />
+      <Head>
+        {date && <meta property="article:published_time" content={publishedAt} />}
+        {lastmod && <meta property="article:modified_time" content={modifiedAt} />}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData, null, 2)
+          }}
+        />
+      </Head>
+    </>
   )
 }
