@@ -1,6 +1,6 @@
+import siteMetadata from '@/data/siteMetadata'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import siteMetadata from '@/data/siteMetadata'
 
 const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl }) => {
   const router = useRouter()
@@ -9,17 +9,22 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <title>{title}</title>
       <meta name="robots" content="follow, index" />
       <meta name="description" content={description} />
-      <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} />
-      <meta property="og:type" content={ogType} />
-      <meta property="og:site_name" content={siteMetadata.title} />
-      <meta property="og:description" content={description} />
-      <meta property="og:title" content={title} />
-      <meta property="og:image" itemProp="image" content={ogImage} />
+
+      {/* Open Graph */}
+      <meta property="og:title" content={title} key="ogtitle" />
+      <meta property="og:description" content={description} key="ogdesc" />
+      <meta property="og:image" content={ogImage} key="ogimage" />
+      <meta property="og:site_name" content={siteMetadata.title} key="ogsitename" />
+      <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} key="ogurl" />
+
+      {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={siteMetadata.twitter} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={twImage} />
+      <meta name="twitter:creator" content={'NuweIo'} key="twhandle" />
+
       <link
         rel="canonical"
         href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
