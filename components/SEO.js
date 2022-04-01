@@ -9,15 +9,17 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <title>{title}</title>
       <meta name="robots" content="follow, index" />
       <meta name="description" content={description} />
-
       {/* Open Graph */}
       <meta property="og:title" content={title} key="ogtitle" />
       <meta property="og:description" content={description} key="ogdesc" />
-      <meta name="image" property="og:image" content={ogImage} key="ogimage" />
+      <meta
+        content="https://challenges-asset-files.s3.us-east-2.amazonaws.com/Landing/Open+Graph+Image.png"
+        property="og:image"
+      />
       <meta property="og:site_name" content={siteMetadata.title} key="ogsitename" />
       <meta name="author" content={'Nuwe'} />
+      <meta property="og:type" content={ogType} key="ogtype" />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} key="ogurl" />
-
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={siteMetadata.twitter} />
@@ -25,7 +27,6 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={twImage} />
       <meta name="twitter:creator" content={'NuweIo'} key="twhandle" />
-
       <link
         rel="canonical"
         href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
