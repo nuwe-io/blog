@@ -33,7 +33,9 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="font-regular p-1 text-2sm text-gray-700 hover:text-gradient-200 dark:text-gray-100 sm:p-4"
+                  className={`font-regular p-1 text-2sm ${
+                    link.title === 'Blog' ? 'text-gradient-200' : 'text-gray-700'
+                  } hover:text-gradient-200 dark:text-gray-100 sm:p-4`}
                 >
                   {link.title}
                 </Link>
