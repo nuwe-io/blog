@@ -12,7 +12,7 @@ const LayoutWrapper = ({ children }) => {
       <SectionContainer>
         <header className="flex items-center justify-between py-10">
           <div>
-            <Link href="/" aria-label={siteMetadata.headerTitle}>
+            <Link href="https://nuwe.io" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">
                   <Logo />
