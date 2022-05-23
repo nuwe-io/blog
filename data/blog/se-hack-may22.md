@@ -17,9 +17,9 @@ summary: "The Schneider Electric Hackathon: A Schneider Electric and NUWE's hiri
 authors: ['maria']
 ---
 
-# The Schneider Electric Hackathon: A Schneider Electric and NUWE's hiring programming competition that fights climate change\*\*
+# The Schneider Electric Hackathon: A Schneider Electric and NUWE's hiring programming competition that fights climate change
 
-### The Schneider Electric Hackathon took place online on Saturday, 21th May, and NUWE coordinated it from Barcelona\*\*
+### The Schneider Electric Hackathon took place online on Saturday, 21th May, and NUWE coordinated it from Barcelona
 
 On **21th May 2022**, more than **140 programmers** competed in the **Schneider Electric Hackathon**. The **nationwide (Spain)** competition was coordinated **online** by **NUWE** from **Barcelona**, and carried out as an initiative of the company **Schneider Electric** to **meet and recruit technological talent**.
 
@@ -32,9 +32,3 @@ Thus, with the Schneider Electric Hackathon, **the competitors with the best sco
 **About NUWE**
 
 NUWE is the digital ecosystem that offers all the necessary tools to the HR department to validate, attract and retain digital talent easily and efficiently through events and work-alike challenges.
-
-Maria Carda Romero
-
-Brand Creative Strategist
-
-[maria@nuwe.io](mailto:maria@nuwe.io)
