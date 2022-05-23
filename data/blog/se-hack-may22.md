@@ -1,5 +1,5 @@
 ---
-title: The Schneider Electric Higing Hackathon
+title: The Schneider Electric Hiring Hackathon
 date: '2022-05-23'
 tags:
   [
