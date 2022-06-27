@@ -10,7 +10,8 @@ tags:
     'caxaibank-tech',
     'finance',
     'hiring',
-    'trainning'
+    'trainning',
+    'press-release'
   ]
 draft: false
 summary: 'Weekend plan: Playing the Challenge with CaixaBank Tech in its Hackathon, organized by CaixaBank Tech and NUWE to meet and hire the best technological talent. 

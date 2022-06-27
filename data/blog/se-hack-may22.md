@@ -10,7 +10,8 @@ tags:
     'cybersecurity',
     'data-science',
     'hiring',
-    'trainning'
+    'trainning',
+    'press-release'
   ]
 draft: false
 summary: "The Schneider Electric Hackathon: A Schneider Electric and NUWE's hiring programming competition that fights climate change. The Schneider Electric Hackathon took place online on Saturday, 21th May, and NUWE coordinated it from Barcelona"

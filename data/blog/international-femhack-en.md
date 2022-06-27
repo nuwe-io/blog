@@ -2,7 +2,7 @@
 title: International Femhack
 image: /blog/static/images/headers/Femhack.png
 date: '2022-01-31'
-tags: ['hackathon', 'woman', 'break', 'the', 'algorithm', 'talent']
+tags: ['hackathon', 'woman', 'break', 'the', 'algorithm', 'talent','press-release']
 draft: false
 summary: "The first edition of the fully online programming event The 
 International FemHack, organized by NUWE, took place on January 21, 22 and 23rd and was coordinated from Barcelona"
