@@ -90,27 +90,27 @@ module.exports = withBundleAnalyzer({
     return [
       {
         source: '/developers',
-        destination: 'https://app.nuwe.io/developers',
+        destination: 'https://nuwe.io/developers',
         permanent: true
       },
       {
         source: '/companies',
-        destination: 'https://app.nuwe.io',
+        destination: 'https://nuwe.io',
         permanent: true
       },
       {
         source: '/press',
-        destination: 'https://app.nuwe.io/press',
+        destination: 'https://nuwe.io/press',
         permanent: true
       },
       {
         source: '/terms',
-        destination: 'https://app.nuwe.io/terms',
+        destination: 'https://nuwe.io/terms',
         permanent: true
       },
       {
         source: '/privacy',
-        destination: 'https://app.nuwe.io/privacy',
+        destination: 'https://nuwe.io/privacy',
         permanent: true
       }
     ]
