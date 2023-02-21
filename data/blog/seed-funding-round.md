@@ -1,5 +1,5 @@
 ---
-title: Hackathon BCN Inclusive Coding
+title: NUWE cierra su segunda ronda de inversión de 739.000 euros
 date: '2023-02-21'
 tags: ['funding', 'nuwe', 'growth', 'seed', 'investment']
 draft: false
