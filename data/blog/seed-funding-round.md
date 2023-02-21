@@ -7,17 +7,15 @@ summary: 'Nuwe cierra su segunda ronda de inversión de 739.000€. Liderada por
 authors: [maria]
 ---
 
-# NdP - Cierre de segunda ronda
+# NUWE cierra su segunda ronda de inversión de 739.000 euros
 
-## **NUWE cierra su segunda ronda de inversión de 739.000 euros**
-
-**La plataforma gamificada de retos y competiciones de programación y una de las startups con mayor proyección de Lanzadera ha cerrado su segunda ronda de inversión de 739.000€. Entre sus inversores se encuentran Asterius VC, Demium Capital, Finaves (IESE) y BackFund.**
+## La plataforma gamificada de retos y competiciones de programación y una de las startups con mayor proyección de Lanzadera ha cerrado su segunda ronda de inversión de 739.000€. Entre sus inversores se encuentran Asterius VC, Demium Capital, Finaves (IESE) y BackFund.
 
 Barcelona 20 de febrero de 2023
 
 NUWE, la plataforma gamificada de retos y competiciones de programación que permite a las empresas fidelizar y contratar al mejor talento tecnológico, levanta su segunda ronda de inversión de 739.000 euros. Este segundo cierre de ronda de la startup española se ha llevado a cabo gracias a la confianza de los fondos que ya formaban parte de la compañía y a través de la búsqueda de nuevos partners estratégicos para ayudar a NUWE a continuar revolucionando el sector de los RRHH.
 
-Para este segundo cierre de ronda y con tal de poder seguir evolucionando como empresa, NUWE ha contado con el apoyo de Demium Capital, que ha vuelto a invertir en la compañía, Asterius VC como **lead investor**, Finaves (el fondo de inversión de IESE) y Back Fund. El capital se utilizará para continuar con el desarrollo de sus nuevos productos y para escalar el equipo de ventas y tecnología.
+Para este segundo cierre de ronda y con tal de poder seguir evolucionando como empresa, NUWE ha contado con el apoyo de Demium Capital, que ha vuelto a invertir en la compañía, Asterius VC como _lead investor_, Finaves (el fondo de inversión de IESE) y Back Fund. El capital se utilizará para continuar con el desarrollo de sus nuevos productos y para escalar el equipo de ventas y tecnología.
 
 NUWE fue fundada en el año 2021 por 4 founders. Los 4 se conocieron a través de la universidad y crearon NUWE como respuesta al problema que experimentaron como ingenieros aeronáuticos al salir al mercado laboral: en las entrevistas técnicas convencionales no se evaluaba a los candidatos por su talento y tampoco se les permitía destacar sus habilidades. Por eso mismo, se basaron en el formato de hackathons en las que participaban cuando eran estudiantes para revolucionar el mercado de la contratación técnica.
 
