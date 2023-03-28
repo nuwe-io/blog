@@ -22,6 +22,7 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" content="#000000" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+          <link href="/static/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
