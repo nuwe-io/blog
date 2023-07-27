@@ -53,6 +53,10 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  output: 'standalone',
+  experimental: {
+    outputStandalone: true
+  },
   assetPrefix: '/blog',
   basePath: '/blog',
   reactStrictMode: true,
