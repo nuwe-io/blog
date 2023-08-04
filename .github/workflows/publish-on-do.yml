@@ -15,7 +15,7 @@ jobs:
       - name: Checkout the repo 
         uses: actions/checkout@v2
       - name: Build image 
-        run: docker build -t ${{ github.event.repository.name }}.
+        run: docker build -t ${{ github.event.repository.name }} .
       - name: Install doctl 
         uses: digitalocean/action-doctl@v2
         with:
