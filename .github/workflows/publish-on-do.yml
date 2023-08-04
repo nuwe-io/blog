@@ -14,23 +14,22 @@ jobs:
     steps:
       - name: Checkout the repo 
         uses: actions/checkout@v2
-      - name: Get repository name
-        id: repo-name
-        uses: MariachiBear/get-repo-name-action@v1.1.0
-        with:
-          with-owner: 'false'
-          string-case: 'lowercase'
+
       - name: Build image 
-        run: docker build -t ${{ steps.repo-name.outputs.repository-name }} .
+        run: docker build -t ${{ github.event.repository.name }} .
+
       - name: Install doctl 
         uses: digitalocean/action-doctl@v2
         with:
           token: ${{ secrets.DO_API_TOKEN}}
+
       - name: Log in to DO Container Registry 
         run: doctl registry login --expiry-seconds 600
+
       - name: Tag image 
         run:
-          docker tag ${{ steps.repo-name.outputs.repository-name }} \
-          ${{ secrets.DO_REGISTRY }}/${{ steps.repo-name.outputs.repository-name}}:latest
+          docker tag ${{ github.event.repository.name }} \
+          ${{ vars.DO_REGISTRY_PROD }}/${{ github.event.repository.name}}:latest
+
       - name: Push image to DO Container Registry 
-        run: docker push ${{ secrets.DO_REGISTRY }}/${{ steps.repo-name.outputs.repository-name }}:latest
+        run: docker push ${{ vars.DO_REGISTRY_PROD }}/${{ github.event.repository.name }}:latest
