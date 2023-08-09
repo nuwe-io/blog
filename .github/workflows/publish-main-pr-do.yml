@@ -3,7 +3,7 @@ name: Build and publish at pull request
 on:
   pull_request_target:
     branches:
-      - main 
+      - master 
     types: [opened, synchronized, edited, closed]
 
 jobs:
