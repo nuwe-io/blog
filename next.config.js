@@ -57,8 +57,8 @@ module.exports = withBundleAnalyzer({
   experimental: {
     outputStandalone: true
   },
-  assetPrefix: '/blog',
-  basePath: '/blog',
+  assetPrefix: '/',
+  basePath: '',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
